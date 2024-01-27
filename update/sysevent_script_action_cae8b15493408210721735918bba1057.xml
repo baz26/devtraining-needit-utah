@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysevent_script_action">
+    <sysevent_script_action action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition_script/>
+        <description/>
+        <event_name>x_58872_needit.overdueNeedItTask</event_name>
+        <name>Update Overdue NeedIt Task Priority</name>
+        <order>100</order>
+        <script><![CDATA[//if(current.priority !=1){
+// Set the record priority to 1 - Critical
+current.priority = 1;
+// Update the record in the database
+current.update();
+//};
+//if(current.priority !=1){} NOT NEEDED WORKS WIth and WITHOUT if Statement WHY???
+
+//QUESTION: If you look at the gs.eventQueue() method in the Scheduled Script Execution, the overdueNITasks object is passed to the event. Why does the Script Action use the current object and not the overdueNITasks object in the script?
+//ANSWER: Script Actions always refer to the object passed by gs.eventQueue() as current.
+
+]]></script>
+        <synchronous>false</synchronous>
+        <sys_class_name>sysevent_script_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-26 07:56:45</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>cae8b15493408210721735918bba1057</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_name>Update Overdue NeedIt Task Priority</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sysevent_script_action_cae8b15493408210721735918bba1057</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-26 09:14:34</sys_updated_on>
+    </sysevent_script_action>
+</record_update>
