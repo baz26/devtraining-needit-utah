@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties_category">
+    <sys_properties_category action="INSERT_OR_UPDATE">
+        <name>NeedIt Properties</name>
+        <sys_class_name>sys_properties_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-30 18:54:16</sys_created_on>
+        <sys_id>505e64b193c4c610721735918bba1038</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>NeedIt Properties</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_properties_category_505e64b193c4c610721735918bba1038</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-30 22:55:15</sys_updated_on>
+        <title><![CDATA[<p><img src="LEGO_logo.svg.pngx" alt="" width="28" height="28" /> <span style="font-size: 12pt;">NeedIt Properties</span></p>
+<p><span style="font-size: 10pt;">A system Property Category creates the page layout for an application&#39;s properties. The system Category Properties page is not accessible until a module is created. The purpose of the module is to make an application&#39;s properties available in a single UI page and to make it easier to administer your application. Application properties are configurable application parameters to change an application&#39;s behavior. Usually only system administrators/or application administrators can read and write application properties. Using an application property instead of hard-coding values allows the application&#39;s behavior to change without having to modify the code or install new versions.</span></p>
+<p>The generalized strategy for creating Application Properties is:</p>
+<ol style="list-style-type: decimal; list-style-position: inside;"><li>Create a System Property Category</li><li>Create properties</li><li>Order properties</li><li>Create a Properties module</li></ol>]]></title>
+    </sys_properties_category>
+    <sys_translated_text action="delete_multiple" query="documentkey=505e64b193c4c610721735918bba1038"/>
+</record_update>
